@@ -66,21 +66,22 @@ pip
 
 #### Installation
 
-terminal:clone the repository
+terminal:
+-> clone the repository
 
-cd VirtualFoundationShadeMatcher/ShadeMatch
+ cd VirtualFoundationShadeMatcher/ShadeMatch
 
 -> Create and activate virtual environment
 
-python -m venv venv
+ python -m venv venv
 
-venv\Scripts\activate      # Windows
+ venv\Scripts\activate      # Windows
 
-source venv/bin/activate   # macOS/Linux
+ source venv/bin/activate   # macOS/Linux
 
 -> Install dependencies
 
-pip install flask flask-cors
+ pip install flask flask-cors
 
 -> Run the app
 
