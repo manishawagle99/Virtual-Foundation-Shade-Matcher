@@ -90,9 +90,13 @@ Accepts pixel RGB data from the frontend canvas, computes average skin color, cl
 
 # Roadmap
  Machine learning–based skin tone classification.
+ 
  Live webcam support for real-time shade detection.
+ 
  Expanded brand database with price filtering.
+ 
  AR overlay to virtually try on shades.
+ 
  Mobile-responsive redesign.
 
 # Contributing
