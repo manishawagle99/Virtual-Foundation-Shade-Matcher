@@ -32,11 +32,7 @@ Frontend ->  JavaScript, HTML, CSS
 
 Image Processing -> Custom RGB extraction & flood-fill algorithm
 
-Skin Analysis ->  Rule-based RGB classifier (skincomplexity.py)
-
-Async API ->  FastAPI-compatible structure (FastAPI also installed)
-
-Server -> Uvicorn ready
+Skin Analysis ->  Rule-based RGB classifier 
 
 
 # Project Structure
