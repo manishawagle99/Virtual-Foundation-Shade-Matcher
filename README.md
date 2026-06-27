@@ -11,26 +11,31 @@ Upload a photo, select a skin region (cheek, forehead, etc.), and the app extrac
 
 
 # Key Features
-Pixel-level skin sampling — Uses an interactive canvas with flood-fill and masking to let users precisely select any skin region.
+Upload image and select facial region
 
-RGB-based skin tone classification — Analyzes average pixel color to categorize skin into 6 tones: Fair, Light, Medium, Olive, Dark, and Deep Dark.
+Extract RGB values from the selected area
 
-Personalized foundation suggestions — Returns 3 matched shades per skin tone, each with brand name and product image.
+Classify skin tone (Fair, Light, Medium, Olive, Dark, Deep Dark)
 
-Interactive frontend — Upload, select, draw, and get results all in one smooth flow.
+Recommend foundation shades from multiple brands
 
-REST API backend — Flask + Python backend with clean /upload-rgb endpoint, ready for integration or extension.
+Display product images with suggestions
 
-Session-based result rendering — Results delivered via a dedicated results page with zero data leakage.
+Dynamic interaction between frontend and backend
 
 
 
 # Tech Stack
 Backend -> Python 3.12, Flask, Flask-CORS
-Frontend -> Vanilla JavaScript, HTML5 Canvas API
+
+Frontend ->  JavaScript, HTML, CSS
+
 Image Processing -> Custom RGB extraction & flood-fill algorithm
+
 Skin Analysis ->  Rule-based RGB classifier (skincomplexity.py)
+
 Async API ->  FastAPI-compatible structure (FastAPI also installed)
+
 Server -> Uvicorn ready
 
 
