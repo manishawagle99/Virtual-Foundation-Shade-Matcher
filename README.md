@@ -105,10 +105,5 @@ Accepts pixel RGB data from the frontend canvas, computes average skin color, cl
  
  Mobile-responsive redesign.
 
-# Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you'd like to change.
-
-# License
-This project is open source.
 
  # Built with love to make beauty more inclusive and accessible for every skin tone.
