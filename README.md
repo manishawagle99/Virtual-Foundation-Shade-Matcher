@@ -11,7 +11,7 @@ Most people waste money buying the wrong foundation shade. This app solves that.
 Upload a photo, select a skin region (cheek, forehead, etc.), and the app extracts the average RGB values from that area to classify your skin tone. It then recommends foundation shades matched precisely to your complexion.
 
 
-# Key Features
+### Key Features
 Upload image and select facial region
 
 Extract RGB values from the selected area
@@ -26,7 +26,7 @@ Dynamic interaction between frontend and backend
 
 
 
-# Tech Stack
+### Tech Stack
 Backend -> Python 3.12, Flask, Flask-CORS
 
 Frontend ->  JavaScript, HTML, CSS
@@ -36,7 +36,7 @@ Image Processing -> Custom RGB extraction & flood-fill algorithm
 Skin Analysis ->  Rule-based RGB classifier 
 
 
-# Project Structure
+### Project Structure
 
 VirtualFoundationShadeMatcher/
 └── ShadeMatch/
@@ -57,14 +57,14 @@ VirtualFoundationShadeMatcher/
        
 
 
-# Getting Started
+### Getting Started
 
-# Prerequisites
+#### Prerequisites
 Python 3.12+
 
 pip
 
-# Installation
+#### Installation
 
 terminal:clone the repository
 
@@ -89,12 +89,12 @@ python app.py
 Then click link in your browser.
 
 
-# API Reference
+### API Reference
 POST /upload-rgb
 
 Accepts pixel RGB data from the frontend canvas, computes average skin color, classifies the skin tone, and returns matched foundation shades.
 
-# Roadmap
+### Roadmap
  Machine learning–based skin tone classification.
  
  Live webcam support for real-time shade detection.
@@ -106,4 +106,4 @@ Accepts pixel RGB data from the frontend canvas, computes average skin color, cl
  Mobile-responsive redesign.
 
 
- # Built with love to make beauty more inclusive and accessible for every skin tone.
+ ### Built with love to make beauty more inclusive and accessible for every skin tone.
