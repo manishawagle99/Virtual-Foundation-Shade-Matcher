@@ -28,26 +28,21 @@ LayerTechnologyBackendPython 3.12, Flask, Flask-CORSFrontendVanilla JavaScript, 
 
 VirtualFoundationShadeMatcher/
 └── ShadeMatch/
-    ├── app.py                  # Flask app & API routes
-    ├── skincomplexity.py       # Skin tone classifier + foundation mapper
+    ├── app.py                  
+    ├── skincomplexity.py       
     ├── frontend/
-    │   ├── Frontpage.html      # Landing page
-    │   ├── UserInteraction.html # Upload & region selection UI
-    │   ├── result.html         # Foundation recommendations page
-    │   ├── main.js             # Canvas interaction logic
-    │   ├── drawing.js          # Brush/mark drawing
-    │   ├── floodFill.js        # Flood-fill region selection
-    │   ├── extraction.js       # Pixel extraction from canvas
-    │   ├── rgbData.js          # RGB data collection
-    │   ├── contrast.js         # Contrast enhancement
-    │   └── download.js         # Image download utility
-    └── images/                 # Foundation shade reference images
-        ├── ivory.jpg, porcelain.jpg, alabaster.jpg
-        ├── beige.jpg, warmsand.jpg, lighthoney.jpg
-        ├── naturalbeige.jpg, mediumgolden.jpg, mediumtan.jpg
-        ├── oliviemedium.jpg, goldenolive.jpg, tan.jpg
-        ├── deepbronze.jpg, cocoa.jpg, mocha.jpg
-        └── espresso.jpg, ebony.jpg, richmaho.jpg
+    │   ├── Frontpage.html      
+    │   ├── UserInteraction.html
+    │   ├── result.html         
+    │   ├── main.js           
+    │   ├── drawing.js          
+    │   ├── floodFill.js        
+    │   ├── extraction.js       
+    │   ├── rgbData.js          
+    │   ├── contrast.js         
+    │   └── download.js        
+    └── images/                 
+       
 
 
 # Getting Started
@@ -59,10 +54,12 @@ pip
 # Installation
 
 bashgit clone https://github.com/yourusername/VirtualFoundationShadeMatcher.git
+
 cd VirtualFoundationShadeMatcher/ShadeMatch
 
 -> Create and activate virtual environment
 python -m venv venv
+
 venv\Scripts\activate      # Windows
 source venv/bin/activate   # macOS/Linux
 
