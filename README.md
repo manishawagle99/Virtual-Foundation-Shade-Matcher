@@ -61,6 +61,7 @@ VirtualFoundationShadeMatcher/
 
 # Prerequisites
 Python 3.12+
+
 pip
 
 # Installation
@@ -70,16 +71,21 @@ terminal: git clone https://github.com/yourusername/VirtualFoundationShadeMatche
 cd VirtualFoundationShadeMatcher/ShadeMatch
 
 -> Create and activate virtual environment
+
 python -m venv venv
 
 venv\Scripts\activate      # Windows
+
 source venv/bin/activate   # macOS/Linux
 
 -> Install dependencies
+
 pip install flask flask-cors
 
 -> Run the app
+
 python app.py
+
 Then open http://localhost:5000 in your browser.
 
 
