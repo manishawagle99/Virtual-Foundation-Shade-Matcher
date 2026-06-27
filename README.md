@@ -11,12 +11,13 @@ Upload a photo, select a skin region (cheek, forehead, etc.), and the app extrac
 
 
 # Key Features
-Pixel-level skin sampling — Uses an interactive canvas with flood-fill and masking to let users precisely select any skin region
-RGB-based skin tone classification — Analyzes average pixel color to categorize skin into 6 tones: Fair, Light, Medium, Olive, Dark, and Deep Dark
-Personalized foundation suggestions — Returns 3 matched shades per skin tone, each with brand name and product image
-Interactive frontend — Upload, select, draw, and get results all in one smooth flow
-REST API backend — Flask + Python backend with clean /upload-rgb endpoint, ready for integration or extension
-Session-based result rendering — Results delivered via a dedicated results page with zero data leakage
+Pixel-level skin sampling — Uses an interactive canvas with flood-fill and masking to let users precisely select any skin region.
+
+RGB-based skin tone classification — Analyzes average pixel color to categorize skin into 6 tones: Fair, Light, Medium, Olive, Dark, and Deep Dark.
+Personalized foundation suggestions — Returns 3 matched shades per skin tone, each with brand name and product image.
+Interactive frontend — Upload, select, draw, and get results all in one smooth flow.
+REST API backend — Flask + Python backend with clean /upload-rgb endpoint, ready for integration or extension.
+Session-based result rendering — Results delivered via a dedicated results page with zero data leakage.
 
 
 
@@ -53,7 +54,7 @@ pip
 
 # Installation
 
-bashgit clone https://github.com/yourusername/VirtualFoundationShadeMatcher.git
+terminal: git clone https://github.com/yourusername/VirtualFoundationShadeMatcher.git
 
 cd VirtualFoundationShadeMatcher/ShadeMatch
 
@@ -73,19 +74,15 @@ Then open http://localhost:5000 in your browser.
 
 # API Reference
 POST /upload-rgb
+
 Accepts pixel RGB data from the frontend canvas, computes average skin color, classifies the skin tone, and returns matched foundation shades.
 
-
-# Supported Skin Tones & Brands
-Skin ToneRecommended BrandsFairMaybelline, L'Oreal, NARSLightMAC, Bobbi Brown, Estée LauderMediumFenty Beauty, BareMinerals, Too FacedOliveHuda Beauty, NARS, MACDarkFenty Beauty, Lancôme, RevlonDeep DarkBlack Opal, Estée Lauder, Iman
-
-
 # Roadmap
- Machine learning–based skin tone classification (replace rule-based logic)
- Live webcam support for real-time shade detection
- Expanded brand database with price filtering
- AR overlay to virtually try on shades
- Mobile-responsive redesign
+ Machine learning–based skin tone classification.
+ Live webcam support for real-time shade detection.
+ Expanded brand database with price filtering.
+ AR overlay to virtually try on shades.
+ Mobile-responsive redesign.
 
 # Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you'd like to change.
