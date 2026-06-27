@@ -66,7 +66,7 @@ pip
 
 # Installation
 
-terminal: git clone https://github.com/yourusername/VirtualFoundationShadeMatcher.git
+terminal:clone the repository
 
 cd VirtualFoundationShadeMatcher/ShadeMatch
 
@@ -86,7 +86,7 @@ pip install flask flask-cors
 
 python app.py
 
-Then open  http://127.0.0.1:5000  in your browser.
+Then click link in your browser.
 
 
 # API Reference
