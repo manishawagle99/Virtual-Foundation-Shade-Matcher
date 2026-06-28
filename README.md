@@ -103,15 +103,15 @@ POST /upload-rgb
 Accepts pixel RGB data from the frontend canvas, computes average skin color, classifies the skin tone, and returns matched foundation shades.
 
 ### Roadmap
- Machine learning–based skin tone classification.
+ * Machine learning–based skin tone classification.
  
- Live webcam support for real-time shade detection.
+ * Live webcam support for real-time shade detection.
  
- Expanded brand database with price filtering.
+ * Expanded brand database with price filtering.
  
- AR overlay to virtually try on shades.
+ * AR overlay to virtually try on shades.
  
- Mobile-responsive redesign.
+ * Mobile-responsive redesign.
 
 
  ### Built with love to make beauty more inclusive and accessible for every skin tone.
