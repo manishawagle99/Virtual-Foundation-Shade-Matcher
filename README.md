@@ -12,28 +12,28 @@ Upload a photo, select a skin region (cheek, forehead, etc.), and the app extrac
 
 
 ### Key Features
-Upload image and select facial region
+1. Upload image and select facial region
 
-Extract RGB values from the selected area
+2. Extract RGB values from the selected area
 
-Classify skin tone (Fair, Light, Medium, Olive, Dark, Deep Dark)
+3. Classify skin tone (Fair, Light, Medium, Olive, Dark, Deep Dark)
 
-Recommend foundation shades from multiple brands
+4. Recommend foundation shades from multiple brands
 
-Display product images with suggestions
+5. Display product images with suggestions
 
-Dynamic interaction between frontend and backend
+6. Dynamic interaction between frontend and backend
 
 
 
 ### Tech Stack
-Backend -> Python 3.12, Flask, Flask-CORS
+* Backend -> Python 3.12, Flask, Flask-CORS
 
-Frontend ->  JavaScript, HTML, CSS
+* Frontend ->  JavaScript, HTML, CSS
 
-Image Processing -> Custom RGB extraction & flood-fill algorithm
+* Image Processing -> Custom RGB extraction & flood-fill algorithm
 
-Skin Analysis ->  Rule-based RGB classifier 
+* Skin Analysis ->  Rule-based RGB classifier 
 
 
 ### Project Structure
@@ -60,9 +60,9 @@ VirtualFoundationShadeMatcher/
 ### Getting Started
 
 #### Installation
-*Python 3.12+
+* Python 3.12+
 
-*pip
+* pip
 
 ## How to Run the Project
 
