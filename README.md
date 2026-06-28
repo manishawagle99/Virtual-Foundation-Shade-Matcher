@@ -64,30 +64,37 @@ Python 3.12+
 
 pip
 
-#### Installation
+## How to Run the Project
 
-terminal:
--> clone the repository
+1. Clone the repository
 
- cd VirtualFoundationShadeMatcher/ShadeMatch
+```
+git clone https://github.com/kanchanbmanduma/foundation-shade-matcher.git
+```
 
--> Create and activate virtual environment
+2. Navigate to the project folder
 
- python -m venv venv
+```
+cd foundation-shade-matcher
+```
 
- venv\Scripts\activate      # Windows
+3. Install dependencies
 
- source venv/bin/activate   # macOS/Linux
+```
+pip install flask flask-cors
+```
 
--> Install dependencies
+4. Run the backend
 
- pip install flask flask-cors
-
--> Run the app
-
+```
 python app.py
+```
 
-Then click link in your browser.
+5. Open in browser
+
+```
+http://127.0.0.1:5000
+
 
 
 ### API Reference
