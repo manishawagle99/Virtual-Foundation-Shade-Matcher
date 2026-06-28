@@ -69,7 +69,7 @@ VirtualFoundationShadeMatcher/
 1. Clone the repository
 
 ```
-git clone https://github.com/kanchanbmanduma/foundation-shade-matcher.git
+git clone https://github.com/manishawagle99/virtual-foundation-shade-matcher.git
 ```
 
 2. Navigate to the project folder
