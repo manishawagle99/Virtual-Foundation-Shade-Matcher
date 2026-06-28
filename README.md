@@ -59,10 +59,10 @@ VirtualFoundationShadeMatcher/
 
 ### Getting Started
 
-#### Prerequisites
-Python 3.12+
+#### Installation
+*Python 3.12+
 
-pip
+*pip
 
 ## How to Run the Project
 
